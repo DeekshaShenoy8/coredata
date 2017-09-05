@@ -3,8 +3,15 @@
     <entity name="College" representedClassName=".College" syncable="YES">
         <attribute name="collegeName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="contains" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Student" inverseName="belongsto" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <entity name="Student" representedClassName=".Student" syncable="YES">
+        <attribute name="studentId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="studentName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="belongsto" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="College" inverseName="contains" inverseEntity="College" syncable="YES"/>
     </entity>
     <elements>
-        <element name="College" positionX="-36" positionY="9" width="128" height="75"/>
+        <element name="College" positionX="-36" positionY="9" width="128" height="90"/>
+        <element name="Student" positionX="-18" positionY="45" width="128" height="90"/>
     </elements>
 </model>

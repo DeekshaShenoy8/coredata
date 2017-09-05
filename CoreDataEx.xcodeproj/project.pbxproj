@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C45C48C1F5E5A8D007F5FB7 /* College+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45C4881F5E5A8D007F5FB7 /* College+CoreDataClass.swift */; };
+		1C45C48D1F5E5A8D007F5FB7 /* College+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45C4891F5E5A8D007F5FB7 /* College+CoreDataProperties.swift */; };
+		1C45C48E1F5E5A8D007F5FB7 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45C48A1F5E5A8D007F5FB7 /* Student+CoreDataClass.swift */; };
+		1C45C48F1F5E5A8D007F5FB7 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45C48B1F5E5A8D007F5FB7 /* Student+CoreDataProperties.swift */; };
+		1C45C4911F5E5B8A007F5FB7 /* StudentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45C4901F5E5B8A007F5FB7 /* StudentDetailViewController.swift */; };
 		1C6D76261F59931A00A2D569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D76251F59931A00A2D569 /* AppDelegate.swift */; };
 		1C6D76281F59931A00A2D569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D76271F59931A00A2D569 /* ViewController.swift */; };
 		1C6D762B1F59931A00A2D569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6D76291F59931A00A2D569 /* Main.storyboard */; };
@@ -15,8 +20,6 @@
 		1C6D76331F59931A00A2D569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6D76311F59931A00A2D569 /* LaunchScreen.storyboard */; };
 		1C6D763E1F59931A00A2D569 /* CoreDataExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D763D1F59931A00A2D569 /* CoreDataExTests.swift */; };
 		1C6D76491F59931A00A2D569 /* CoreDataExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D76481F59931A00A2D569 /* CoreDataExUITests.swift */; };
-		1C6D768D1F59A11500A2D569 /* College+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D768B1F59A11500A2D569 /* College+CoreDataClass.swift */; };
-		1C6D768E1F59A11500A2D569 /* College+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D768C1F59A11500A2D569 /* College+CoreDataProperties.swift */; };
 		1C6D76901F59ACFB00A2D569 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D768F1F59ACFB00A2D569 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +55,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C45C4881F5E5A8D007F5FB7 /* College+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "College+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1C45C4891F5E5A8D007F5FB7 /* College+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "College+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1C45C48A1F5E5A8D007F5FB7 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1C45C48B1F5E5A8D007F5FB7 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1C45C4901F5E5B8A007F5FB7 /* StudentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDetailViewController.swift; sourceTree = "<group>"; };
 		1C6D76221F59931A00A2D569 /* CoreDataEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6D76251F59931A00A2D569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C6D76271F59931A00A2D569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,8 +77,6 @@
 		1C6D765A1F59941F00A2D569 /* CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6D76701F59941F00A2D569 /* CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6D767B1F59941F00A2D569 /* CoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C6D768B1F59A11500A2D569 /* College+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "College+CoreDataClass.swift"; sourceTree = "<group>"; };
-		1C6D768C1F59A11500A2D569 /* College+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "College+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		1C6D768F1F59ACFB00A2D569 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,8 +129,6 @@
 		1C6D76191F59931A00A2D569 = {
 			isa = PBXGroup;
 			children = (
-				1C6D768B1F59A11500A2D569 /* College+CoreDataClass.swift */,
-				1C6D768C1F59A11500A2D569 /* College+CoreDataProperties.swift */,
 				1C6D76241F59931A00A2D569 /* CoreDataEx */,
 				1C6D763C1F59931A00A2D569 /* CoreDataExTests */,
 				1C6D76471F59931A00A2D569 /* CoreDataExUITests */,
@@ -148,8 +152,13 @@
 		1C6D76241F59931A00A2D569 /* CoreDataEx */ = {
 			isa = PBXGroup;
 			children = (
+				1C45C4881F5E5A8D007F5FB7 /* College+CoreDataClass.swift */,
+				1C45C4891F5E5A8D007F5FB7 /* College+CoreDataProperties.swift */,
+				1C45C48A1F5E5A8D007F5FB7 /* Student+CoreDataClass.swift */,
+				1C45C48B1F5E5A8D007F5FB7 /* Student+CoreDataProperties.swift */,
 				1C6D76251F59931A00A2D569 /* AppDelegate.swift */,
 				1C6D76271F59931A00A2D569 /* ViewController.swift */,
+				1C45C4901F5E5B8A007F5FB7 /* StudentDetailViewController.swift */,
 				1C6D768F1F59ACFB00A2D569 /* TableViewController.swift */,
 				1C6D76291F59931A00A2D569 /* Main.storyboard */,
 				1C6D762F1F59931A00A2D569 /* Assets.xcassets */,
@@ -405,9 +414,12 @@
 			files = (
 				1C6D762E1F59931A00A2D569 /* CoreDataEx.xcdatamodeld in Sources */,
 				1C6D76901F59ACFB00A2D569 /* TableViewController.swift in Sources */,
-				1C6D768E1F59A11500A2D569 /* College+CoreDataProperties.swift in Sources */,
-				1C6D768D1F59A11500A2D569 /* College+CoreDataClass.swift in Sources */,
+				1C45C4911F5E5B8A007F5FB7 /* StudentDetailViewController.swift in Sources */,
+				1C45C48F1F5E5A8D007F5FB7 /* Student+CoreDataProperties.swift in Sources */,
 				1C6D76281F59931A00A2D569 /* ViewController.swift in Sources */,
+				1C45C48E1F5E5A8D007F5FB7 /* Student+CoreDataClass.swift in Sources */,
+				1C45C48C1F5E5A8D007F5FB7 /* College+CoreDataClass.swift in Sources */,
+				1C45C48D1F5E5A8D007F5FB7 /* College+CoreDataProperties.swift in Sources */,
 				1C6D76261F59931A00A2D569 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

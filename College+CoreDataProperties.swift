@@ -2,7 +2,7 @@
 //  College+CoreDataProperties.swift
 //  CoreDataEx
 //
-//  Created by Deeksha Shenoy on 01/09/17.
+//  Created by Deeksha Shenoy on 05/09/17.
 //  Copyright © 2017 Deeksha Shenoy. All rights reserved.
 //
 
@@ -16,7 +16,8 @@ extension College {
         return NSFetchRequest<College>(entityName: "College")
     }
 
-    @NSManaged public var id: Int32
     @NSManaged public var collegeName: String?
+    @NSManaged public var id: Int32
+    @NSManaged public var contains: Student?
 
 }
